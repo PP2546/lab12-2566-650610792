@@ -57,9 +57,7 @@ export default function HomePage() {
 
   const setLightTheme = () => setTheme(THEMES.LIGHT);
   const setDarkTheme = () => setTheme(THEMES.DARK);
-  const toggleTheme = () =>
-    setTheme(theme.name === "dark" ? THEMES.LIGHT : THEMES.DARK);
-
+  const toggleTheme = () => setTheme(theme.name === "dark" ? THEMES.LIGHT : THEMES.DARK);
   const toggleLang = () => setLang(lang.name === "en" ? LANGS.TH : LANGS.EN);
 
   return (
@@ -78,7 +76,7 @@ export default function HomePage() {
           <Controller />
         </LangContext.Provider>
       </ThemeContext.Provider>
-      <Footer year="2023" fullName="Chayanin Suatap" studentId="650610560" />
+      <Footer year="2023" fullName="Phiphatphong Kawindong" studentId="650610792" />
     </div>
   );
 }
